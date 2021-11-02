@@ -10,6 +10,13 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 import static org.mockito.Mockito.mock;
 
+/**
+ * Test suite to confirm that {@link Unit}s correctly (de)occupy squares.
+ *
+ * @author Jeroen Roosen 
+ *
+ */
+
 class BoardTest {
 
     private static final int MAX_WIDTH = 2;
