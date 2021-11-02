@@ -33,6 +33,10 @@ public class DirectionTest {
         assertThat(south.getDeltaY()).isEqualTo(1);
     }
 
+    /**
+     Add Test Cases for South, West, East
+     */
+    
     @Test
     void testWest() {
         Direction west = Direction.valueOf("WEST");
@@ -40,6 +44,10 @@ public class DirectionTest {
         assertThat(west.getDeltaY()).isEqualTo(0);
     }
 
+    /**
+     Add Test Cases for South, West, East
+     */
+    
     @Test
     void testEast() {
         Direction east = Direction.valueOf("EAST");
