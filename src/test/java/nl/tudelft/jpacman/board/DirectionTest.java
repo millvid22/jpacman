@@ -24,7 +24,7 @@ public class DirectionTest {
     }
 
     /**
-     Add Test Cases for South, West, East
+     Add Test Cases for South, West, East.
      */
 
     @Test
@@ -35,7 +35,7 @@ public class DirectionTest {
     }
 
     /**
-     Add Test Cases for South, West, East
+     Add Test Cases for South, West, East.
      */
     
     @Test
@@ -46,7 +46,7 @@ public class DirectionTest {
     }
 
     /**
-     Add Test Cases for South, West, East
+     Add Test Cases for South, West, East.
      */
     
     @Test
