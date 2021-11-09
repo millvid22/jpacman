@@ -44,7 +44,6 @@ public class MapParserTest {
         mapParser.parseMap(map);
 
         Mockito.verify(levelFactory, Mockito.times(1)).createGhost();
-        Mockito.verify(blinky, Mockito.times(1)).nextMove();
     }
 
     /**
