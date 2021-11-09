@@ -26,7 +26,8 @@ class BoardTest {
      */
     @Test
     void verifyWidth() {
-        assertThat(board.getWidth()).isEqualTo(MAX_WIDTH);
+        assertThat(
+            board.getWidth()).isEqualTo(MAX_WIDTH);
     }
 
     /**
@@ -34,6 +35,7 @@ class BoardTest {
      */
     @Test
     void verifyHeight() {
+
         assertThat(board.getHeight()).isEqualTo(MAX_HEIGHT);
     }
 
